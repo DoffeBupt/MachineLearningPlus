@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KNN_STD.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KNN_STD.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chap4_KNN/KNN_STD.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="566">
@@ -31,6 +31,15 @@
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocessing.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chap4_KNN/preprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -75,6 +84,7 @@
         <option value="$PROJECT_DIR$/Chap4_KNN/model_selection.py" />
         <option value="$PROJECT_DIR$/Chap4_KNN/metrics.py" />
         <option value="$PROJECT_DIR$/Chap4_KNN/KNN_STD.py" />
+        <option value="$PROJECT_DIR$/Chap4_KNN/preprocessing.py" />
       </list>
     </option>
   </component>
@@ -158,12 +168,12 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3299356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -277,6 +287,13 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chap4_KNN/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
