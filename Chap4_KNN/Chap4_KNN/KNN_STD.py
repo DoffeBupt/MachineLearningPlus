@@ -1,6 +1,6 @@
 from collections import Counter
 import numpy as np
-
+from .metrics import accuracy_score
 
 class KNNClassifier:
     def __init__(self, k):
@@ -30,6 +30,12 @@ class KNNClassifier:
         topK_y = [self._y_train[i] for i in nearest[:self.k]]
         votes = Counter(topK_y)
         return votes.most_common(1)[0][0]
+
+    def score(self,X_test, y_test):
+        y_predict = self.predict(X_test)
+        return accuracy_score(y_test,y_predict)
+
+
 
     def __repr__(self):
         return "KNN(k=%d)" % self.k
